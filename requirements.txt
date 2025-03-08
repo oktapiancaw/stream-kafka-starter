@@ -1,0 +1,8 @@
+annotated-types==0.7.0 ; python_full_version == "3.10.12"
+confluent-kafka==2.8.2 ; python_full_version == "3.10.12"
+pydantic-core==2.27.2 ; python_full_version == "3.10.12"
+pydantic-settings==2.8.1 ; python_full_version == "3.10.12"
+pydantic==2.10.6 ; python_full_version == "3.10.12"
+python-dotenv==1.0.1 ; python_full_version == "3.10.12"
+tomli==2.2.1 ; python_full_version == "3.10.12"
+typing-extensions==4.12.2 ; python_full_version == "3.10.12"

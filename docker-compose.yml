@@ -1,0 +1,14 @@
+services:
+  base:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: stream-kafka-starter
+    command: poetry run runner
+    labels:
+      - dev.dozzle.group=starter
+      - dev.dozzle.name=stream-kafka-starter
+    env_file:
+      - .env
+
+    
