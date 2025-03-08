@@ -46,7 +46,8 @@ class BaseEngine:
 
 def runner():
     engine = BaseEngine()
-    engine.run(broker=KafkaConnector(config.kafka))
+    # engine.run(broker=KafkaConnector(config.kafka))
+    engine.run(broker=MainKafkaConnector())
 
 
 if __name__ == "__main__":
